@@ -1,0 +1,113 @@
+/*---------------------------------------- this section will affect everything on the page with the *
+*{
+    color: red;
+}
+-----------------------------------------------*/
+
+
+/*---------------------------------------- Anything Section Styles ----------------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+}
+a{ color: #FFE660;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 92px;
+    line-height: 1;
+}
+h2{
+    font-size:40px;
+}
+h1, h2{
+font-family: 'caveat', cursive;
+font-weight: 400px;
+margin: 1;
+}
+
+.header{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*---------------------------------------- Profiles Section Styles -----------------------------------------------*/
+header{
+    background-color: #2F3061;
+    color: #F7FFF7;
+}
+
+
+
+/*---------------------------------------- Projects Section Styles -----------------------------------------------*/
+
+.projects{
+    background-color: #f7fff7;
+}
+
+.projects a {
+  color: #2F3061;  
+}
+
+.projects .btn {
+    color: #F7FFF7;
+    background:  #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects btn:hover{
+    background: rgba(47, 48, 97, 80%);
+}
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed darkgray;
+    padding: 25px 0;
+}
+.project-item img{
+float: left;
+margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
+}
+
+/*---------------------------------------- Work Experience Section Styles ----------------------------------------*/
+
+.work-experience{
+    background-color: #a1c6d7;
+}
+
+
+
+/*---------------------------------------- Education Section Sytles ----------------------------------------------*/
+
+
+
+
+/*---------------------------------------- footer section styles ----------------------------------------------*/
+
+footer {
+background-color: #343434;
+color: #F7FFF7;
+
+}
